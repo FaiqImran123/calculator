@@ -1,0 +1,49 @@
+#cal{
+    color: white;
+    width: 238px;
+    height: 342px;
+    border-radius: 30px;
+    background-color: #27213C;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 80px auto;
+    gap: 10px;
+    padding: 40px;
+ 
+}
+h4{
+
+    background-color: #BAAEC1;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 16px;
+    margin: 0px;
+    height: 34px;
+    width: 50px;
+    
+}
+h2{
+    border-radius: 10px;
+    
+    background-color:#9684A1;
+    height: 39px;
+    grid-column: 1/5;
+    padding: 11px 0px 0px 4px;
+    margin: 0px;
+}
+.y{
+    background-color: #FFD400;
+    color: black;
+
+}
+div h4:hover{
+    background-color: #6B5CA5;
+    cursor: pointer;
+}
+div .y:hover{
+    color: #FFD400;
+    background-color:black;
+}
+#haha{
+    background-color: red;
+}
